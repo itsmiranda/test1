@@ -1,0 +1,57 @@
+.background {
+	background-image:url(index.png);
+	background-repeat:no-repeat;
+	background-repeat:repeat-x;
+}
+
+h4.headline{font-family:Arial, Helvetica, sans-serif;font-weight:bold;text-shadow:2px 2px 3px #226666;color:#ffff44; margin:15px;}
+h5.headline{font-family:Arial, Helvetica, sans-serif;font-weight:bold;text-shadow:2px 2px 3px #226666;color:#ffff44; margin:5px;}
+
+.wrapperMENU {position: absolute; top: 170px;left: 2%; z-index:100;}
+
+span.title{font-weight: bold}
+
+
+.TEXTBOX {
+			position: absolute;
+		background: url(background2.png);
+		border-radius: 15px;
+		top:250px;
+		right:2%;
+		width: 80%;
+		max-width: 300px;
+		max-height: 500px;
+		z-index:1000;
+		text-align: center;
+	}
+	.responsive{
+		width: 80%;
+		height: auto;
+		max-width: 500px;
+	}
+
+
+.MAINBOX
+
+.LOGINBOX {
+	position: absolute;
+	background-image:url(mainbox.png);
+	top:170px;
+	right:2%;
+	width:310px;
+	height:470px;
+
+	z-index:1000;
+}
+
+.RESULTDIV
+{
+	font-style: italic;
+	color: red;
+	background-color:white;
+}
+
+.RESULTDIV:hover
+{
+	background-color:grey;
+}
